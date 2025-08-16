@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, sans-serif;
+}
+.common-grey{
+    color: #333333;
+}
+.common-paragraph{
+    line-height: 1.4rem;
+    color: #21212199;
+    margin: 1rem 0;
+}
+.common-btn{
+    padding: .8rem 1.6rem;
+    background-color: #E55473;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+#header #header-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    background-color: #fceef1;
+}
+#header #header-banner .banner-text{
+    padding: 0 8rem;
+}
+#header #header-banner h1{
+    font-size: 4rem;
+}
+#header #header-banner img{
+    width: 40%;
+    height: auto;
+    padding: 2rem 3rem 0 0;
+}

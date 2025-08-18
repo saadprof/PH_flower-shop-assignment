@@ -41,3 +41,49 @@ body{
     height: auto;
     padding: 2rem 3rem 0 0;
 }
+
+
+#main #featured-flowers{
+    width: 80%;
+    margin: 5rem auto;
+}
+#main #featured-flowers .featured-flowers-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+#main #featured-flowers .featured-flowers-text h2{
+    font-size: 3rem;
+}
+#main #featured-flowers #featured-flowers-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+#main #featured-flowers #featured-flowers-container .featured-flowers{
+    text-align: center;
+    width:  calc(100% / 3 - 1rem);
+}
+#main #featured-flowers #featured-flowers-container .featured-flowers img{
+    width: 100%;
+    height: 450px;
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 50% 50% 0 0;
+}
+.bg-blue{
+    background-color: #daeff1;
+}
+.bg-olive{
+    background-color: #e3ecdb;
+}
+.bg-pink{
+    background-color: #f2dee7;
+}
+#main #featured-flowers #featured-flowers-container .featured-flowers p{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin: 1rem 0;
+}

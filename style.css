@@ -104,3 +104,19 @@ body{
     width: 30%;
 }
 
+#main #hot-deal {
+    background-color: #fef6f8;
+}
+#main #hot-deal #deal-container{
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 2rem;
+    text-align: center;
+}
+#main #hot-deal #deal-container #deal-text h2{
+    font-size: 3rem;
+}

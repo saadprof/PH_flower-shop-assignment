@@ -120,3 +120,26 @@ body{
 #main #hot-deal #deal-container #deal-text h2{
     font-size: 3rem;
 }
+
+#main #instagram{
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+#main #instagram h2{
+    font-size: 2.5rem;
+}
+#main #instagram p{
+    width: 60%;
+    margin: 1rem auto;
+}
+#main #instagram #insta-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+#main #instagram #insta-img img{
+    width: calc(100% / 4 - 1rem);
+}

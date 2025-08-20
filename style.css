@@ -87,3 +87,20 @@ body{
     text-decoration: underline;
     margin: 1rem 0;
 }
+
+
+#main #services-container{
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 3rem;
+    border-radius: 6px;
+}
+#main #services-container img{
+    width: 30%;
+}
+

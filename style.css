@@ -225,4 +225,12 @@ body{
         width: 90%;
         gap: 2rem;
     }
+
+    #main #hot-deal #deal-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #main #hot-deal #deal-container #deal-text h2{
+        font-size: 2rem;
+    }
 }

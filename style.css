@@ -252,5 +252,9 @@ body{
     #main #subscribe{
         width: 100%;
     }
+
+    #footer #footer-content {
+        width: 100%;
+    }
     
 }

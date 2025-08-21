@@ -192,3 +192,16 @@ body{
 #footer #footer-content p {
     margin: .8rem 0;
 }
+
+
+@media screen and (max-width: 639.5px){
+    #header #header-banner .banner-text{
+        padding: 2rem;
+    }
+    #header #header-banner img{
+        display: none;
+    }
+    #header #header-banner h1{
+        font-size: 2.5rem;
+    }
+}

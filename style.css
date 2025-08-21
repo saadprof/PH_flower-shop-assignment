@@ -1,61 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     font-family: Arial, sans-serif;
 }
-.common-grey{
+.common-grey {
     color: #333333;
 }
-.common-paragraph{
+.common-paragraph {
     line-height: 1.4rem;
     color: #21212199;
     margin: 1rem 0;
 }
-.common-btn{
-    padding: .8rem 1.6rem;
-    background-color: #E55473;
+.common-btn {
+    padding: 0.8rem 1.6rem;
+    background-color: #e55473;
     color: #ffffff;
     border-radius: 8px;
     cursor: pointer;
 }
 
-
-#header #header-banner{
+#header #header-banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
     background-color: #fceef1;
 }
-#header #header-banner .banner-text{
+#header #header-banner .banner-text {
     padding: 0 8rem;
 }
-#header #header-banner h1{
+#header #header-banner h1 {
     font-size: 4rem;
 }
-#header #header-banner img{
+#header #header-banner img {
     width: 40%;
     height: auto;
     padding: 2rem 3rem 0 0;
 }
 
-
-#main #featured-flowers{
+#main #featured-flowers {
     width: 80%;
     margin: 5rem auto;
 }
-#main #featured-flowers .featured-flowers-text{
+#main #featured-flowers .featured-flowers-text {
     width: 50%;
     margin: 0 auto;
     text-align: center;
 }
-#main #featured-flowers .featured-flowers-text h2{
+#main #featured-flowers .featured-flowers-text h2 {
     font-size: 3rem;
 }
-#main #featured-flowers #featured-flowers-container{
+#main #featured-flowers #featured-flowers-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,33 +61,32 @@ body{
     width: 100%;
     margin-top: 2rem;
 }
-#main #featured-flowers #featured-flowers-container .featured-flowers{
+#main #featured-flowers #featured-flowers-container .featured-flowers {
     text-align: center;
-    width:  calc(100% / 3 - 1rem);
+    width: calc(100% / 3 - 1rem);
 }
-#main #featured-flowers #featured-flowers-container .featured-flowers img{
+#main #featured-flowers #featured-flowers-container .featured-flowers img {
     width: 100%;
     height: 450px;
     padding: 2rem 2rem 0 2rem;
     border-radius: 50% 50% 0 0;
 }
-.bg-blue{
+.bg-blue {
     background-color: #daeff1;
 }
-.bg-olive{
+.bg-olive {
     background-color: #e3ecdb;
 }
-.bg-pink{
+.bg-pink {
     background-color: #f2dee7;
 }
-#main #featured-flowers #featured-flowers-container .featured-flowers p{
+#main #featured-flowers #featured-flowers-container .featured-flowers p {
     font-size: 1.2rem;
     text-decoration: underline;
     margin: 1rem 0;
 }
 
-
-#main #services-container{
+#main #services-container {
     width: 80%;
     margin: 5rem auto;
     display: flex;
@@ -100,14 +97,14 @@ body{
     padding: 3rem;
     border-radius: 6px;
 }
-#main #services-container img{
+#main #services-container img {
     width: 30%;
 }
 
 #main #hot-deal {
     background-color: #fef6f8;
 }
-#main #hot-deal #deal-container{
+#main #hot-deal #deal-container {
     width: 80%;
     margin: 5rem auto;
     display: flex;
@@ -117,61 +114,59 @@ body{
     padding: 2rem;
     text-align: center;
 }
-#main #hot-deal #deal-container #deal-text h2{
+#main #hot-deal #deal-container #deal-text h2 {
     font-size: 3rem;
 }
 
-#main #instagram{
+#main #instagram {
     width: 80%;
     margin: 5rem auto;
     text-align: center;
 }
-#main #instagram h2{
+#main #instagram h2 {
     font-size: 2.5rem;
 }
-#main #instagram p{
+#main #instagram p {
     width: 60%;
     margin: 1rem auto;
 }
-#main #instagram #insta-img{
+#main #instagram #insta-img {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
 }
-#main #instagram #insta-img img{
+#main #instagram #insta-img img {
     width: calc(100% / 4 - 1rem);
 }
 
-
-#main #subscribe{
+#main #subscribe {
     width: 80%;
     margin: 5rem auto;
     text-align: center;
-    background-image: url('images/Rectangle 9.png');
+    background-image: url("images/Rectangle 9.png");
     background-size: cover;
     background-position: center;
     padding: 6rem 4rem;
     border-radius: 6px;
 }
-#main #subscribe h2{
+#main #subscribe h2 {
     font-size: 2.5rem;
 }
-#main #subscribe #subscribe-input-container{
+#main #subscribe #subscribe-input-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
 }
-#main #subscribe #subscribe-input-container .sub-input{
+#main #subscribe #subscribe-input-container .sub-input {
     padding: 0.8rem;
     width: 50%;
     border-radius: 4px;
     border: 1px solid #ccc;
 }
-
 
 #footer {
     width: 100%;
@@ -190,71 +185,68 @@ body{
     color: #ffffff;
 }
 #footer #footer-content p {
-    margin: .8rem 0;
+    margin: 0.8rem 0;
 }
 
-
-@media screen and (max-width: 639.5px){
-    #header #header-banner .banner-text{
+@media screen and (max-width: 639.5px) {
+    #header #header-banner .banner-text {
         padding: 2rem;
     }
-    #header #header-banner img{
+    #header #header-banner img {
         display: none;
     }
-    #header #header-banner h1{
+    #header #header-banner h1 {
         font-size: 2.5rem;
     }
 
-    #main #featured-flowers{
+    #main #featured-flowers {
         width: 90%;
     }
-    #main #featured-flowers .featured-flowers-text{
+    #main #featured-flowers .featured-flowers-text {
         width: 100%;
     }
-    #main #featured-flowers #featured-flowers-container{
+    #main #featured-flowers #featured-flowers-container {
         flex-direction: column;
         align-items: center;
     }
-    #main #featured-flowers #featured-flowers-container .featured-flowers{
+    #main #featured-flowers #featured-flowers-container .featured-flowers {
         width: 80%;
         margin-bottom: 2rem;
     }
 
-    #main #services-container{
+    #main #services-container {
         flex-wrap: wrap;
         width: 90%;
         gap: 2rem;
     }
 
-    #main #hot-deal #deal-container{
+    #main #hot-deal #deal-container {
         flex-direction: column-reverse;
         align-items: center;
     }
-    #main #hot-deal #deal-container #deal-text h2{
+    #main #hot-deal #deal-container #deal-text h2 {
         font-size: 2rem;
     }
 
-
-    #main #instagram{
+    #main #instagram {
         width: 90%;
     }
-    #main #instagram p{
+    #main #instagram p {
         width: 100%;
     }
-    #main #instagram #insta-img{
+    #main #instagram #insta-img {
         align-items: center;
     }
-    #main #instagram #insta-img img{
+    #main #instagram #insta-img img {
         width: calc(100% / 2 - 1rem);
         margin-bottom: 1rem;
     }
 
-    #main #subscribe{
+    #main #subscribe {
         width: 100%;
     }
 
     #footer #footer-content {
         width: 100%;
     }
-    
 }

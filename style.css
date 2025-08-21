@@ -233,4 +233,19 @@ body{
     #main #hot-deal #deal-container #deal-text h2{
         font-size: 2rem;
     }
+
+
+    #main #instagram{
+        width: 90%;
+    }
+    #main #instagram p{
+        width: 100%;
+    }
+    #main #instagram #insta-img{
+        align-items: center;
+    }
+    #main #instagram #insta-img img{
+        width: calc(100% / 2 - 1rem);
+        margin-bottom: 1rem;
+    }
 }
